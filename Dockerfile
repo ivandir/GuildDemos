@@ -5,7 +5,7 @@ MAINTAINER Mark Wicks <mark.wicks@hobsons.com>
 USER root
 
 RUN apt-get update
-RUN apt-get -y graphviz && apt-get clean
+RUN apt-get install -y graphviz && apt-get clean
 
 USER main
 
