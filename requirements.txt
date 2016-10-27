@@ -2,3 +2,5 @@ csvkit==0.9.1
 csvtools==0.5.1
 pydot==1.2.3
 pydotplus==2.0.2
+rise==4.0.0b1
+
